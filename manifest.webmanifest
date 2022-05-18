@@ -1,0 +1,21 @@
+{
+  "dir": "ltr",
+  "lang": "fa",
+  "name": "Nill Developers",
+  "short_name": "Nill",
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#ebd3c5",
+  "background_color": "#241f1d",
+  "description": "Nill Developers Gp",
+  "icons": [
+    {
+      "src": "./assets/img/NillDevelopersLogo.png",
+      "sizes": "313x313",
+      "type": "image/png"
+    }
+  ],
+  "screenshots": [],
+  "generated": "true",
+  "orientation": "portrait-primary"
+}
