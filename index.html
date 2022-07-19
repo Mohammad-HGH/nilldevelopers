@@ -48,6 +48,92 @@
   <link rel="shortcut icon" href="./assets/img/NillDevelopersLogo.png" type="image/x-icon" />
   <link rel="icon" href="./assets/img/NillDevelopersLogo.png" type="image/x-icon" />
   <link rel="manifest" href="./manifest.webmanifest" crossorigin="use-credentials" />
+
+
+  <!-- <style>
+    .navigation {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      min-height: 100vh;
+      overflow: hidden;
+    }
+
+    .navigation ul {
+      position: relative;
+    }
+
+    .navigation ul li {
+      text-align: center;
+      list-style: none;
+    }
+
+    .navigation ul li a {
+      color: #0F0E0E;
+      text-decoration: none;
+      font-size: 3em;
+      padding: 5px 20px;
+      display: inline-flex;
+      font-weight: 700;
+      transition: 0.5s;
+    }
+
+    .navigation ul li:hover a {
+      color: #fff;
+    }
+
+    .navigation ul:hover li a {
+      color: #fff;
+    }
+
+    .navigation ul li a:before {
+      content: '';
+      position: absolute;
+      top: 50%;
+      left: 40%;
+      transform: translate(-50%, -50%);
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      font-size: 5em;
+      color: rgba(126, 126, 126, 0.1);
+      z-index: -1;
+      opacity: 0;
+      font-weight: 1000;
+      text-transform: uppercase;
+      letter-spacing: 500px;
+      transition: letter-spacing 0.5s, left 0.5s;
+    }
+
+    .navigation ul li a:hover:before {
+      content: attr(data-text);
+      opacity: 1;
+      left: 50%;
+      letter-spacing: 60px;
+      width: 1920px;
+      height: 1080px;
+    }
+
+    .navigation ul li:nth-child(5n+1) a:before {
+      background: #0F0E0E;
+    }
+
+    .navigation ul li:nth-child(5n+2) a:before {
+      background: #0F0E0E;
+    }
+
+    .navigation ul li:nth-child(5n+3) a:before {
+      background: #0F0E0E;
+    }
+
+    .navigation ul li:nth-child(5n+4) a:before {
+      background: #0F0E0E;
+    }
+
+    .navigation ul li:nth-child(5n+5) a:before {
+      background: #0F0E0E;
+    }
+  </style> -->
 </head>
 
 <body class="hamburger-menu dsn-effect-scroll dsn-ajax" data-dsn-mousemove="true">
@@ -58,7 +144,7 @@
   </noscript>
   <!-- End Google Tag Manager (noscript) -->
 
-  <div class="preloader" dir="rtl">
+  <!-- <div class="preloader" dir="rtl">
     <div class="preloader-after"></div>
     <div class="preloader-before"></div>
     <div class="preloader-block">
@@ -69,7 +155,7 @@
     <div class="preloader-bar">
       <div class="preloader-progress"></div>
     </div>
-  </div>
+  </div> -->
 
   <!-- Nav Bar -->
   <div class="dsn-nav-bar">
@@ -79,13 +165,20 @@
           <div class="main-logo">
             <a href="index-2.html">
               <img class="dark-logo" src="assets/img/logo-dark.png" alt="" />
-              <img class="light-logo" src="assets/img/logo.png" alt="" />
+              <img class="light-logo" src="assets/img/logo/NILL.png" alt="" />
             </a>
           </div>
         </div>
-        <nav class="accent-menu main-navigation">
+        <nav class="accent-menu main-navigation navigation">
+
           <ul class="extend-container">
-            <li class="custom-drop-down">
+            <li><a href="#" data-text="Home">Home</a></li>
+            <li><a href="#" data-text="Portfolio">Portfolio</a></li>
+            <li><a href="#" data-text="Blog">Blog</a></li>
+            <li><a href="#" data-text="Contact">Contact</a></li>
+          </ul>
+          <!-- <ul class="extend-container"> -->
+          <!-- <li class="custom-drop-down">
               <a href="#">خانه</a>
               <ul>
                 <li><a href="index-2.html">Main Demo</a></li>
@@ -118,8 +211,15 @@
                 <li><a href="post.html">Single Post</a></li>
               </ul>
             </li>
-            <li><a href="contact.html">Contact</a></li>
-          </ul>
+            <li><a href="contact.html">Contact</a></li> -->
+
+
+          <!-- <li><a href="#" data-text="Home">Home</a></li>
+            <li><a href="#" data-text="Portfolio">Portfolio</a></li>
+            <li><a href="#" data-text="Blog">Blog</a></li>
+            <li><a href="#" data-text="Contact">Contact</a></li> -->
+
+          <!-- </ul> -->
         </nav>
       </div>
     </div>
@@ -128,7 +228,7 @@
         <div class="logo main-logo">
           <a href="index-2.html">
             <img class="dark-logo" src="assets/img/logo-dark.png" alt="" />
-            <img class="light-logo" src="assets/img/logo.png" alt="" />
+            <img class="light-logo" src="assets/img/logo/NILL.png" alt="" />
           </a>
         </div>
 
@@ -580,7 +680,7 @@
             </div>
             <div class="swiper-slide">
               <div class="image-container">
-                <div class="image-bg cover-bg" data-image-src="assets/img/project/project2/3.jpg" data-overlay="2">
+                <div class="image-bg cover-bg" data-image-src="assets/img/nill/6.jpg" data-overlay="2">
                 </div>
               </div>
               <div class="content">
@@ -665,19 +765,16 @@
                 <div class="intro-content-text">
                   <h2 data-dsn-grid="move-section" data-dsn-move="-30" data-dsn-duration="100%" data-dsn-opacity="1.2"
                     data-dsn-responsive="tablet">
-                    Hello we are, <br />
-                    Dsn Grid
+                    شرکت طراحی Nill Developers
                   </h2>
 
                   <p data-dsn-animate="text">
-                    Founded in 2000, Dsn Grid has become one of the best
-                    Digital Agency in ThemeForest. Blue money going forward,
-                    but deploy to production. C-suite. First-order optimal
-                    strategies build on a culture of contribution and
-                    inclusion so those options
+                    لورم ایپسوم متن ساختگی با تولید سادگی نامفهوم از صنعت چاپ، و با استفاده از طراحان گرافیک است،
+                    چاپگرها و متون بلکه روزنامه و مجله در ستون و سطرآنچنان که لازم است، و برای شرایط فعلی تکنولوژی مورد
+                    نیاز، و کاربردهای متنوع با هدف بهبود ابزارهای کاربردی می باشد.
                   </p>
 
-                  <h6 data-dsn-animate="text">SALVADOR DALI</h6>
+                  <!-- <h6 data-dsn-animate="text">SALVADOR DALI</h6>
                   <small data-dsn-animate="text">Digital Artisit</small>
 
                   <div class="exper">
@@ -689,7 +786,7 @@
                       YEARS OF <br />
                       DIGITAL EXPERIENCE
                     </h4>
-                  </div>
+                  </div> -->
                 </div>
               </div>
             </div>
@@ -699,20 +796,24 @@
             <div class="img-box">
               <div class="img-cent" data-dsn-grid="move-up">
                 <div class="img-container">
-                  <img data-dsn-y="30%" src="assets/img/bgg.jpg" alt="" />
+                  <img data-dsn-y="30%" src="assets/img/nill/card.jpg" alt="" />
                 </div>
               </div>
             </div>
           </div>
         </section>
 
-        <section class="our-services-2 section-margin">
+        <!-- <section class="our-services-2 section-margin">
           <div class="container">
             <div class="one-title" data-dsn-animate="up">
               <div class="title-sub-container">
-                <p class="title-sub">Our Servcies</p>
+                <p class="title-sub">
+                  گروه توسعه نیل
+                </p>
               </div>
-              <h2 class="title-main">New Branding Agency</h2>
+              <h2 class="title-main">
+                نیل از چه تکنولوژی هایی برای توسعه بهره میگیرد؟
+              </h2>
             </div>
 
             <div class="row">
@@ -773,7 +874,7 @@
         <div class="box-seat box-seat-full section-margin">
           <div class="container-fluid">
             <div class="inner-img" data-dsn-grid="move-up">
-              <img data-dsn-scale="1" data-dsn-y="30%" src="assets/img/project/project2/3.jpg" alt="" />
+              <img data-dsn-scale="1" data-dsn-y="30%" src="assets/img/nill/6.jpg" alt="" />
             </div>
             <div class="pro-text">
               <h3>
@@ -793,15 +894,19 @@
               </div>
             </div>
           </div>
-        </div>
+        </div> -->
 
         <section class="our-work work-under-header section-margin" dir="ltr" data-dsn-col="3">
           <div class="container" dir="rtl">
             <div class="one-title">
               <div class="title-sub-container">
-                <p class="title-sub">Our Work</p>
+                <p class="title-sub">
+                  پروژه های گروه توسعه نیل
+                </p>
               </div>
-              <h2 class="title-main">Creative Portfolio Designs</h2>
+              <h2 class="title-main">
+                گالری پروژه های ما تا اینجا
+              </h2>
             </div>
           </div>
           <div class="container-fluid">
@@ -917,7 +1022,7 @@
               <div class="left">
                 <h2 class="title" data-dsn-grid="move-section" data-dsn-move="-60" data-dsn-duration="100%"
                   data-dsn-opacity="1" data-dsn-responsive="tablet">
-                  <span class="text">Feedback from our clients.</span>
+                  <span class="text">Feedback from NILL DEVELOPERS.</span>
                 </h2>
               </div>
 
@@ -1067,9 +1172,11 @@
           <div class="container">
             <div class="one-title" data-dsn-animate="up">
               <div class="title-sub-container">
-                <p class="title-sub">Our clients</p>
+                <p class="title-sub">NILL DEVELOPERS</p>
               </div>
-              <h2 class="title-main">Your successful, our reputation</h2>
+              <h2 class="title-main">
+                شرکتهای طرف قرارداد ما تا اینجا
+              </h2>
             </div>
 
             <div class="wapper-client">
